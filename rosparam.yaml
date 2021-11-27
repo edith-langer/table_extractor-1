@@ -3,7 +3,7 @@
   storage_path: 'v4r@rocco:/media/v4r/FF64-D891/tidy_up_pipeline/stare_at_tables'
   topics: ['/hsrb/head_rgbd_sensor/rgb/image_rect_color', '/hsrb/head_rgbd_sensor/depth_registered/image_rect_raw','/tf','/tf_static','/hsrb/head_rgbd_sensor/rgb/camera_info']
 elasticfusion:
-  call_params: ["d", "2", "-c", "15", "-cv", "1e-01", "-ie", "1e-05", "-pt", "60", "-f", "-q"]
+  call_params: ["-d", "2", "-c", "15", "-cv", "1e-01", "-ie", "1e-05", "-pt", "60", "-f", "-q"]
 png_to_klg:
   offset: 0.0
   max_difference: 0.3
